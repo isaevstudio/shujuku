@@ -120,6 +120,7 @@ th {
 			<th class="thtd">Shoe数量</th>
 			<th class="thtd"><font color="blue">购买</font></th>
 			<th class="thtd"><font color="black">减少数量</font></th>
+			<th class="thtd"><font color="black">增加数量</font></th>
 			<th class="thtd"><font color="red">删除</font></th>
 		    </tr>
 		    
@@ -135,7 +136,10 @@ th {
 			<a class="btn btn-info" href="saveorder?shoe_id=${shoe.id}" role="button">立即购买</a>
 		    </td>
 		    <td>
-			<a class="btn btn-warning" href="reduce?shoe_id=${shoe.id}" role="button">减少数量</a>
+			<a class="btn btn-warning" href="reduce?shoe_id=${shoe.id}" role="button">-</a>
+		    </td>
+		     <td>
+			<a class="btn btn-warning" href="save?shoe_id=${shoe.id}" role="button">+</a>
 		    </td>
 		    <td>
 			<a class="btn btn-danger" href="remove?shoe_id=${shoe.id}" role="button">删除</a>
