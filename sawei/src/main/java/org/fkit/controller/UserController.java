@@ -18,7 +18,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
 /**
- * 处理用户请求控制器
+ * 处理用户请求控制器，萨伟大作业做得真好
  * */
 @Controller
 public class UserController {
